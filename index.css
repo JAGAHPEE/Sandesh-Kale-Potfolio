@@ -1,12 +1,12 @@
 body{
-    max-width: 100%;
-    /* max-width: 1024px; */
-    height:100%;
+    max-width: 1524px;
+    height: 100%;
     color: rgb(0, 0, 0);
-    background-image: url("pexels-cottonbro-4709377.jpg");
+    background-image: url("wallpaperflare.com_wallpaper.jpg");
     /* background-image: -webkit-linear-gradient(top right,rgb(0, 0, 0),blue,rgb(0, 0, 0)); */
     background-repeat: no-repeat;
     background-size:cover;
+
     font-size: 20px;
 }   
 .container{
@@ -92,6 +92,7 @@ main ul{
 
 .social li {
     list-style: none;
+    background-color: white;
 }    
 .social li a{
     display: inline-block;
