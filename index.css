@@ -1,23 +1,19 @@
 body{
-    max-width: 1524px;
+    max-width: 1924px;
     height: 100%;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     background-image: url("wallpaperflare.com_wallpaper.jpg");
-    /* background-image: -webkit-linear-gradient(top right,rgb(0, 0, 0),blue,rgb(0, 0, 0)); */
     background-repeat: no-repeat;
     background-size:cover;
 
     font-size: 20px;
 }   
 .container{
-    background-color: rgba(255, 255, 255, 0.274);
-    z-index: 100;
-
-    
+    background-color: rgba(0, 0, 0, 0.274);  
 }
 .container .linkedin{
     text-decoration: none;
-    
+    /* color: rgb(255, 255, 255); */
 }
 
 header{
@@ -32,15 +28,15 @@ header{
     padding-bottom: 1rem;
 }
 a{
-
     text-decoration: none;
-    background-color: #ffabab1a;
-    border-radius: 10px;
+    color: white;
+    /* background-color: #fffafac2; */
+    border-radius: 5 px;
 }
 
 .detail:hover{
-    color: rgba(8, 8, 8, 0.753);
-    background-color: rgba(0, 0, 0, 0.102);
+    color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(255, 255, 255, 0.712);
     
     
 }
@@ -92,7 +88,7 @@ main ul{
 
 .social li {
     list-style: none;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }    
 .social li a{
     display: inline-block;
