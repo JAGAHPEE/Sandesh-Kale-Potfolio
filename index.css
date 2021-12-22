@@ -100,6 +100,8 @@ main ul{
     height: 50px;
     padding: 10px 10px 10px 10px;
     background: transparent;
+    font-size: 50px;
+    color: black;
 
 }
 .social li a:hover {
