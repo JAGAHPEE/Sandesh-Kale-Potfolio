@@ -1,0 +1,112 @@
+body{
+    max-width: 100%;
+    /* max-width: 1024px; */
+    height:100%;
+    color: rgb(0, 0, 0);
+    background-image: url("pexels-cottonbro-4709377.jpg");
+    /* background-image: -webkit-linear-gradient(top right,rgb(0, 0, 0),blue,rgb(0, 0, 0)); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 20px;
+}   
+.container{
+    background-color: rgba(255, 255, 255, 0.274);
+    z-index: 100;
+
+    
+}
+.container .linkedin{
+    text-decoration: none;
+    
+}
+
+header{
+    z-index: 100;
+    font-size: 20px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    align-items:center;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+a{
+
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.detail:hover{
+    color: rgb(0, 247, 255);
+    background-color: rgba(255, 255, 255, 0.109);
+    
+    
+}
+
+.image{
+    background-image: url("SK.jpeg");
+    background-size:cover;
+    height: 150px;
+    width: 150px;
+    z-index: 1000;
+    transition-duration: 1s;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* transform: 2s; */
+   
+}
+.image:hover
+{
+    height: 200px;
+    width: 200px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-style: none;
+    /* transform: rotate(10deg); */
+}
+.detail{
+    min-width: 100px;
+    height: 100%;
+    transition-duration: 2s;
+    
+}
+main{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    gap: 10px;
+}
+
+main ul{
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+}
+
+.social ul{
+    align-items: center;
+    display: flex;
+}
+
+.social li {
+    list-style: none;
+}    
+.social li a{
+    display: inline-block;
+    margin-right: 20px;
+    /* filter: invert(1); */
+    transform: scale(0.5);
+    transition: 0.5s;
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    background: transparent;
+
+}
+.social li a:hover {
+    transform: scale(0.5) translateY(-15px);
+}
+
+
